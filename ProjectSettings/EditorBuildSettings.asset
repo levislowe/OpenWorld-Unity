@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/00WorldScene/00StartMenu.unity
+    guid: 2e03f4b4f7c81904b8565ec66db87855
+  - enabled: 1
+    path: Assets/00WorldScene/01Castle_Hub(Matt).unity
+    guid: 7210a8c0fbc7d3b4596163e4b6e35982
+  - enabled: 1
+    path: Assets/00WorldScene/02Sno_Wld(Levi).unity
+    guid: b2efb21559d1f3d4ca5c4a15dc1e0543
+  - enabled: 1
+    path: Assets/00WorldScene/Derek's World Items/NetworkingTest.unity
+    guid: eb313350572a5c54eb7f902d18089b24
+  - enabled: 1
+    path: Assets/00WorldScene/03Tunnel.unity
+    guid: cca3d0a3831c05f47897299ea6cb51e9
+  m_configObjects: {}
