@@ -1,161 +1,401 @@
 Using pre-set license
-Built from '2020.3/staging' branch; Version is '2020.3.9f1 (108be757e447) revision 1084391'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19043.1237; Version 2009; 64bit' Language: 'en' Physical Memory: 98295 MB
+Built from '2020.3/staging' branch; Version is '2020.3.6f1 (338bb68529b2) revision 3378102'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19043.1237; Version 2009; 64bit' Language: 'en' Physical Memory: 16193 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.3.9f1\Editor\Unity.exe
+F:\UnityEngine\2020.3.6f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/SuperGeorge/OpenWorld (1)
+C:/Users/mefen/OneDrive/Documents/GitHub/OpenWorld-Unity-
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57559
-Successfully changed project path to: C:/Users/SuperGeorge/OpenWorld (1)
-C:/Users/SuperGeorge/OpenWorld (1)
+57675
+Successfully changed project path to: C:/Users/mefen/OneDrive/Documents/GitHub/OpenWorld-Unity-
+C:/Users/mefen/OneDrive/Documents/GitHub/OpenWorld-Unity-
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 322.18 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 204.28 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2020.3.9f1 (108be757e447)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/SuperGeorge/OpenWorld (1)/Assets
+Initialize engine version: 2020.3.6f1 (338bb68529b2)
+[Subsystems] Discovering subsystems at path F:/UnityEngine/2020.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/mefen/OneDrive/Documents/GitHub/OpenWorld-Unity-/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 980 Ti (ID=0x17c8)
+    Renderer: NVIDIA GeForce RTX 2080 (ID=0x1e87)
     Vendor:   
-    VRAM:     6097 MB
-    Driver:   30.0.14.7196
+    VRAM:     8010 MB
+    Driver:   30.0.14.7168
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56196
+Mono path[0] = 'F:/UnityEngine/2020.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'F:/UnityEngine/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'F:/UnityEngine/2020.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56348
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
-Registered in 0.018224 seconds.
-Native extension for Lumin target not found
+Register platform support module: F:/UnityEngine/2020.3.6f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: F:/UnityEngine/2020.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: F:/UnityEngine/2020.3.6f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.001553 seconds.
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 258.25 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 132.74 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.358 seconds
+- Completed reload, in  1.306 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.022829 seconds.
+Registered in 0.013940 seconds.
+Assembly with name 'Mirror.CompilerSymbols' already exists (Assets/09Netword/Mirror/CompilerSymbols/Mirror.CompilerSymbols.asmdef)
+
+Assembly with name 'Mirror.CompilerSymbols' already exists (Assets/09Network/Mirror/CompilerSymbols/Mirror.CompilerSymbols.asmdef)
+
+Assembly with name 'Mirror.Authenticators' already exists (Assets/09Netword/Mirror/Authenticators/Mirror.Authenticators.asmdef)
+
+Assembly with name 'Mirror.Authenticators' already exists (Assets/09Network/Mirror/Authenticators/Mirror.Authenticators.asmdef)
+
+Assembly with name 'Mirror.Components' already exists (Assets/09Netword/Mirror/Components/Mirror.Components.asmdef)
+
+Assembly with name 'Mirror.Components' already exists (Assets/09Network/Mirror/Components/Mirror.Components.asmdef)
+
+Assembly with name 'Mirror.Editor' already exists (Assets/09Network/Mirror/Editor/Mirror.Editor.asmdef)
+
+Assembly with name 'Mirror.Editor' already exists (Assets/09Netword/Mirror/Editor/Mirror.Editor.asmdef)
+
+Assembly with name 'Mirror.Weaver' already exists (Assets/09Network/Editor/Weaver/Mirror.Weaver.asmdef)
+
+Assembly with name 'Mirror.Weaver' already exists (Assets/09Netword/Mirror/Editor/Weaver/Mirror.Weaver.asmdef)
+
+Assembly with name 'Mirror.Editor' already exists (Assets/09Network/Editor/Mirror.Editor.asmdef)
+
+Assembly with name 'Mirror.Editor' already exists (Assets/09Netword/Mirror/Editor/Mirror.Editor.asmdef)
+
+Assembly with name 'Mirror.CompilerSymbols' already exists (Assets/09Netword/Mirror/CompilerSymbols/Mirror.CompilerSymbols.asmdef)
+
+Assembly with name 'Mirror.CompilerSymbols' already exists (Assets/09Network/Mirror/CompilerSymbols/Mirror.CompilerSymbols.asmdef)
+
+Assembly with name 'Mirror.Authenticators' already exists (Assets/09Netword/Mirror/Authenticators/Mirror.Authenticators.asmdef)
+
+Assembly with name 'Mirror.Authenticators' already exists (Assets/09Network/Mirror/Authenticators/Mirror.Authenticators.asmdef)
+
+Assembly with name 'Mirror.Components' already exists (Assets/09Netword/Mirror/Components/Mirror.Components.asmdef)
+
+Assembly with name 'Mirror.Components' already exists (Assets/09Network/Mirror/Components/Mirror.Components.asmdef)
+
+Assembly with name 'Mirror.Editor' already exists (Assets/09Network/Mirror/Editor/Mirror.Editor.asmdef)
+
+Assembly with name 'Mirror.Editor' already exists (Assets/09Netword/Mirror/Editor/Mirror.Editor.asmdef)
+
+Assembly with name 'Mirror.Weaver' already exists (Assets/09Network/Editor/Weaver/Mirror.Weaver.asmdef)
+
+Assembly with name 'Mirror.Weaver' already exists (Assets/09Netword/Mirror/Editor/Weaver/Mirror.Weaver.asmdef)
+
+Assembly with name 'Mirror.Editor' already exists (Assets/09Network/Editor/Mirror.Editor.asmdef)
+
+Assembly with name 'Mirror.Editor' already exists (Assets/09Netword/Mirror/Editor/Mirror.Editor.asmdef)
+
 Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 269.34 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 155.57 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Refreshing native plugins compatible for Editor in 2.37 ms, found 2 plugins.
-Find all reader and writers took 224 milliseconds
-Script Module: UnityEngine.UI.dll
-Weave behaviours and messages took126 milliseconds
-Find all reader and writers took 211 milliseconds
-Script Module: Unity.RenderPipelines.Core.Runtime.dll
-Weave behaviours and messages took89 milliseconds
-Find all reader and writers took 184 milliseconds
-Script Module: UnityEngine.TestRunner.dll
-Weave behaviours and messages took54 milliseconds
-Find all reader and writers took 184 milliseconds
-Script Module: Unity.Mathematics.dll
-Weave behaviours and messages took356 milliseconds
-Find all reader and writers took 165 milliseconds
-Script Module: SimpleWebTransport.dll
-Weave behaviours and messages took15 milliseconds
-Find all reader and writers took 199 milliseconds
-Script Module: Unity.Multiplayer.MLAPI.Runtime.dll
-Weave behaviours and messages took87 milliseconds
-Find all reader and writers took 197 milliseconds
-Script Module: Unity.RenderPipelines.Universal.Runtime.dll
-Weave behaviours and messages took106 milliseconds
-Find all reader and writers took 168 milliseconds
-Script Module: Unity.Animation.Rigging.dll
-Weave behaviours and messages took41 milliseconds
-Find all reader and writers took 182 milliseconds
-Script Module: Assembly-CSharp.dll
-Weave behaviours and messages took63 milliseconds
-Find all reader and writers took 173 milliseconds
-Script Module: Unity.Burst.dll
-Weave behaviours and messages took63 milliseconds
-Find all reader and writers took 224 milliseconds
-Script Module: Unity.TextMeshPro.dll
-Weave behaviours and messages took115 milliseconds
-Find all reader and writers took 169 milliseconds
-Script Module: NavMeshComponentsTestsPlaymode.dll
-Weave behaviours and messages took7 milliseconds
-Find all reader and writers took 166 milliseconds
-Script Module: Unity.ProBuilder.Poly2Tri.dll
-Weave behaviours and messages took11 milliseconds
-Find all reader and writers took 185 milliseconds
-Script Module: Cinemachine.dll
-Weave behaviours and messages took86 milliseconds
-Find all reader and writers took 179 milliseconds
-Script Module: Unity.Timeline.dll
-Weave behaviours and messages took53 milliseconds
-Find all reader and writers took 212 milliseconds
-Script Module: Unity.ProBuilder.dll
-Weave behaviours and messages took138 milliseconds
-Find all reader and writers took 163 milliseconds
-Script Module: Telepathy.dll
-Weave behaviours and messages took4 milliseconds
-Find all reader and writers took 204 milliseconds
-Script Module: Unity.ProGrids.dll
-Weave behaviours and messages took0 milliseconds
-Find all reader and writers took 171 milliseconds
-Script Module: Unity.ProBuilder.Csg.dll
-Weave behaviours and messages took4 milliseconds
-Find all reader and writers took 204 milliseconds
-Script Module: NavMeshComponentsExamples.dll
-Weave behaviours and messages took8 milliseconds
-Find all reader and writers took 174 milliseconds
-Script Module: kcp2k.dll
-Weave behaviours and messages took6 milliseconds
-Find all reader and writers took 167 milliseconds
-Script Module: Unity.ProBuilder.KdTree.dll
-Weave behaviours and messages took8 milliseconds
-Find all reader and writers took 181 milliseconds
-Script Module: Unity.RenderPipelines.Core.ShaderLibrary.dll
-Weave behaviours and messages took0 milliseconds
-Find all reader and writers took 184 milliseconds
-Script Module: Unity.Analytics.DataPrivacy.dll
-Weave behaviours and messages took0 milliseconds
-Find all reader and writers took 184 milliseconds
-Script Module: Unity.RenderPipeline.Universal.ShaderLibrary.dll
-Weave behaviours and messages took0 milliseconds
-Find all reader and writers took 186 milliseconds
-Script Module: NavMeshComponents.dll
-Weave behaviours and messages took5 milliseconds
-Find all reader and writers took 179 milliseconds
-Script Module: Unity.Multiplayer.MLAPI.Prototyping.dll
-Weave behaviours and messages took12 milliseconds
-Find all reader and writers took 168 milliseconds
-Script Module: Unity.Analytics.DataPrivacy.Tests.dll
-Weave behaviours and messages took0 milliseconds
-Find all reader and writers took 170 milliseconds
-Script Module: Unity.ProBuilder.Stl.dll
-Weave behaviours and messages took2 milliseconds
-Find all reader and writers took 169 milliseconds
-Script Module: Unity.RenderPipelines.Universal.Shaders.dll
-Weave behaviours and messages took0 milliseconds
-Find all reader and writers took 164 milliseconds
-Script Module: Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-Weave behaviours and messages took0 milliseconds
+Assembly with name 'Mirror.CompilerSymbols' already exists (Assets/09Netword/Mirror/CompilerSymbols/Mirror.CompilerSymbols.asmdef)
+
+Assembly with name 'Mirror.CompilerSymbols' already exists (Assets/09Network/Mirror/CompilerSymbols/Mirror.CompilerSymbols.asmdef)
+
+Assembly with name 'Mirror.Authenticators' already exists (Assets/09Netword/Mirror/Authenticators/Mirror.Authenticators.asmdef)
+
+Assembly with name 'Mirror.Authenticators' already exists (Assets/09Network/Mirror/Authenticators/Mirror.Authenticators.asmdef)
+
+Assembly with name 'Mirror.Components' already exists (Assets/09Netword/Mirror/Components/Mirror.Components.asmdef)
+
+Assembly with name 'Mirror.Components' already exists (Assets/09Network/Mirror/Components/Mirror.Components.asmdef)
+
+Assembly with name 'Mirror.Editor' already exists (Assets/09Network/Mirror/Editor/Mirror.Editor.asmdef)
+
+Assembly with name 'Mirror.Editor' already exists (Assets/09Netword/Mirror/Editor/Mirror.Editor.asmdef)
+
+Assembly with name 'Mirror.Weaver' already exists (Assets/09Network/Editor/Weaver/Mirror.Weaver.asmdef)
+
+Assembly with name 'Mirror.Weaver' already exists (Assets/09Netword/Mirror/Editor/Weaver/Mirror.Weaver.asmdef)
+
+Assembly with name 'Mirror.Editor' already exists (Assets/09Network/Editor/Mirror.Editor.asmdef)
+
+Assembly with name 'Mirror.Editor' already exists (Assets/09Netword/Mirror/Editor/Mirror.Editor.asmdef)
+
+Refreshing native plugins compatible for Editor in 1.41 ms, found 2 plugins.
+PrecompiledAssemblyException: Multiple precompiled assemblies with the same name Mono.CecilX.Pdb.dll included or the current platform. Only one assembly with the same name is allowed per platform.
+  at UnityEditor.Scripting.ScriptCompilation.PrecompiledAssemblyProvider.ValidateAndGetNameToPrecompiledAssembly (UnityEditor.Scripting.ScriptCompilation.PrecompiledAssembly[] precompiledAssemblies) [0x00108] in <e09fc44b2b464346872ad04477f51ab1>:0 
+  at UnityEditor.Scripting.ScriptCompilation.PrecompiledAssemblyProvider.GetPrecompiledAssembliesDictionary (System.Boolean isEditor, UnityEditor.BuildTargetGroup buildTargetGroup, UnityEditor.BuildTarget buildTarget) [0x00028] in <e09fc44b2b464346872ad04477f51ab1>:0 
+  at UnityEditor.Compilation.CompilationPipeline.GetScriptAssemblies (UnityEditor.Scripting.ScriptCompilation.IEditorCompilation editorCompilation, UnityEditor.Scripting.ScriptCompilation.EditorScriptCompilationOptions options) [0x00023] in <e09fc44b2b464346872ad04477f51ab1>:0 
+  at UnityEditor.Compilation.CompilationPipeline.GetScriptAssemblies (UnityEditor.Scripting.ScriptCompilation.IEditorCompilation editorCompilation, UnityEditor.Compilation.AssembliesType assembliesType) [0x00056] in <e09fc44b2b464346872ad04477f51ab1>:0 
+  at UnityEditor.Compilation.CompilationPipeline.GetAssemblies (UnityEditor.Scripting.ScriptCompilation.EditorCompilation editorCompilation, UnityEditor.Compilation.AssembliesType assembliesType) [0x00001] in <e09fc44b2b464346872ad04477f51ab1>:0 
+  at UnityEditor.Compilation.CompilationPipeline.GetAssemblies (UnityEditor.Compilation.AssembliesType assembliesType) [0x00006] in <e09fc44b2b464346872ad04477f51ab1>:0 
+  at UnityEditor.Compilation.CompilationPipeline.GetAssemblies () [0x00001] in <e09fc44b2b464346872ad04477f51ab1>:0 
+  at Mirror.Weaver.CompilationFinishedHook.WeaveExistingAssemblies () [0x00000] in F:\Unity\OpenWorld\Assets\09Netword\Mirror\Editor\Weaver\CompilationFinishedHook.cs:58 
+  at Mirror.Weaver.CompilationFinishedHook.OnInitializeOnLoad () [0x00034] in F:\Unity\OpenWorld\Assets\09Netword\Mirror\Editor\Weaver\CompilationFinishedHook.cs:52 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.222 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 2.00 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4005 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 284.8 MB.
+System memory in use after: 285.0 MB.
+
+Unloading 177 unused Assets to reduce memory usage. Loaded Objects now: 4458.
+Total: 4.223400 ms (FindLiveObjects: 0.378300 ms CreateObjectMapping: 0.231700 ms MarkObjects: 3.172400 ms  DeleteObjects: 0.439500 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/drip_drum_beach_PREISLAND1.fbx
+  artifactKey: Guid(17467c39fbc8bf545accaecbb1661149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drip_drum_beach_PREISLAND1.fbx using Guid(17467c39fbc8bf545accaecbb1661149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e00d215a814cf786b086044700de05d') in 0.975196 seconds
+  Import took 0.983222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000485 seconds.
+  path: Assets/leaf.mat
+  artifactKey: Guid(cfa09d5902cfd44499b05af07fb0eb78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/leaf.mat using Guid(cfa09d5902cfd44499b05af07fb0eb78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6ee55543baaf6403e104d9ea018b55c') in 0.048913 seconds
+  Import took 0.056489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/nonshiny steel.mat
+  artifactKey: Guid(f024a2d7c0d4ca040b3d1d9664245901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/nonshiny steel.mat using Guid(f024a2d7c0d4ca040b3d1d9664245901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e47f9c4f6dab94c93d89af051b4a0e6') in 0.010468 seconds
+  Import took 0.017109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Hair.001.mat
+  artifactKey: Guid(260d828c822865a459e5842cd9fa4ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hair.001.mat using Guid(260d828c822865a459e5842cd9fa4ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e726dc0139b6e5da496cfeab28b658a5') in 0.011706 seconds
+  Import took 0.017872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/black.001.mat
+  artifactKey: Guid(2a384e6b9b67cd643a7bef2f769c662b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/black.001.mat using Guid(2a384e6b9b67cd643a7bef2f769c662b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4339430f3b0307f812b0876270a0b15') in 0.011745 seconds
+  Import took 0.017702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/hole dark.mat
+  artifactKey: Guid(6c1563c9171797d458de929cb32badec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hole dark.mat using Guid(6c1563c9171797d458de929cb32badec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52a955f4d46b1d247401f9370c2d1174') in 0.014124 seconds
+  Import took 0.020698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/gravel.001.mat
+  artifactKey: Guid(82c4c478bc30bd740928bf25b0a16bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gravel.001.mat using Guid(82c4c478bc30bd740928bf25b0a16bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90e7a76b5f01aebd1666f96cfe618036') in 0.011044 seconds
+  Import took 0.017499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/grass.mat
+  artifactKey: Guid(caa9eba8f8d62b94da0139b4cf4bb993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/grass.mat using Guid(caa9eba8f8d62b94da0139b4cf4bb993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dead886d88fe700a49a84d33917a34c6') in 0.010498 seconds
+  Import took 0.016642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/black.mat
+  artifactKey: Guid(ba9527f519fdfbe4490dd75eb24fe1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/black.mat using Guid(ba9527f519fdfbe4490dd75eb24fe1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b588c991b54ec82439fa9952098563a') in 0.010171 seconds
+  Import took 0.017445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/New Terrain 5.asset
+  artifactKey: Guid(9d5279dee2a0f884685f8f9f42aeb382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 5.asset using Guid(9d5279dee2a0f884685f8f9f42aeb382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bde62d509ea3766de00221dbd12a71cb') in 0.026532 seconds
+  Import took 0.032437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/gravel.mat
+  artifactKey: Guid(02e89402dad058b4081bfbb4cf03b5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gravel.mat using Guid(02e89402dad058b4081bfbb4cf03b5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a28045835a84da46ff4bf06629a1cf53') in 0.011321 seconds
+  Import took 0.017806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/white.mat
+  artifactKey: Guid(775ac2d557004584eb894d6e127a1549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/white.mat using Guid(775ac2d557004584eb894d6e127a1549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f071c4e369bd60c20c692ac540e345da') in 0.013337 seconds
+  Import took 0.019788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Gloves.001.mat
+  artifactKey: Guid(b9ab2091257e9a342a9073ee23c3e86e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gloves.001.mat using Guid(b9ab2091257e9a342a9073ee23c3e86e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcfe2a54f6c707429b5408eed5b0e7ef') in 0.012479 seconds
+  Import took 0.020428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/New Terrain 7.asset
+  artifactKey: Guid(6f213b5644327d840a50b81e0bbf1217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 7.asset using Guid(6f213b5644327d840a50b81e0bbf1217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cbdb910853edb4e51687d6be53c458a') in 0.013606 seconds
+  Import took 0.019929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/bird.mat
+  artifactKey: Guid(1d0b683c0ad175b459fe99b901dc5e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bird.mat using Guid(1d0b683c0ad175b459fe99b901dc5e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97246698571306fe0c9f864b02dd00fd') in 0.010429 seconds
+  Import took 0.017295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/yellow.mat
+  artifactKey: Guid(6ae376fe2c4d02e4a8c43310d0dc14d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/yellow.mat using Guid(6ae376fe2c4d02e4a8c43310d0dc14d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bf350cf8e7b9cdea897f5c9441ff77e') in 0.012312 seconds
+  Import took 0.019360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/beach.mat
+  artifactKey: Guid(11844142c06dfee4587d74ebe7c5e62a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/beach.mat using Guid(11844142c06dfee4587d74ebe7c5e62a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fe46212284d242e4c9b6bafea975895') in 0.017783 seconds
+  Import took 0.025408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/antenna.mat
+  artifactKey: Guid(f6c629bc58fdf504c9b1c200fed6efef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/antenna.mat using Guid(f6c629bc58fdf504c9b1c200fed6efef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2285e4386a012ea6159e5fb90b52d498') in 0.010183 seconds
+  Import took 0.017161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Eyes.001.mat
+  artifactKey: Guid(7b0c655bec234114d88afe5230234e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eyes.001.mat using Guid(7b0c655bec234114d88afe5230234e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b2b0dbbf8bbc560cafbb6f312eaa96b') in 0.012764 seconds
+  Import took 0.019316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/New Terrain 6.asset
+  artifactKey: Guid(e635be22d110d9f45b860e4a7d044b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 6.asset using Guid(e635be22d110d9f45b860e4a7d044b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9fbba30cf2abf1a130646c774e14cff') in 0.028619 seconds
+  Import took 0.037676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/cobweb.mat
+  artifactKey: Guid(1e8951d90456d3240937541f0bb3e7d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cobweb.mat using Guid(1e8951d90456d3240937541f0bb3e7d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbaddc5424037560904234c59d97172c') in 0.017367 seconds
+  Import took 0.034793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/grey.mat
+  artifactKey: Guid(ab904811d2c6f2f4b99977b98f6fff97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/grey.mat using Guid(ab904811d2c6f2f4b99977b98f6fff97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5731eb8fe8287268862faf5696be97bb') in 0.011341 seconds
+  Import took 0.017933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/invisible.mat
+  artifactKey: Guid(d03fa4948b081c24697cf23c741decf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/invisible.mat using Guid(d03fa4948b081c24697cf23c741decf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c95bad1e7fad8b24e3c3fd2b6fb0400') in 0.010211 seconds
+  Import took 0.016385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/gravel cracked.mat
+  artifactKey: Guid(94f3f393483089740a42836f0f9b9d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gravel cracked.mat using Guid(94f3f393483089740a42836f0f9b9d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9097a8ec1eb5024511c81d1a9a4e2b2f') in 0.009983 seconds
+  Import took 0.015854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Overalls.001.mat
+  artifactKey: Guid(88d58c8860b96c6468bd66dc143864cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overalls.001.mat using Guid(88d58c8860b96c6468bd66dc143864cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eab10adb7eaa6be35474c8ca688221e0') in 0.011128 seconds
+  Import took 0.019339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/bark.mat
+  artifactKey: Guid(efb1999e97cd1634b827d636487cdb12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bark.mat using Guid(efb1999e97cd1634b827d636487cdb12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bb07828d411dce4a3b8b356915c6821') in 0.011587 seconds
+  Import took 0.026275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.431302 seconds.
+  path: Assets/00WorldScene/01Castle_Hub(Matt)/NavMesh-Bridge.asset
+  artifactKey: Guid(801e93654ef8b0e439fa0616c461149a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/00WorldScene/01Castle_Hub(Matt)/NavMesh-Bridge.asset using Guid(801e93654ef8b0e439fa0616c461149a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08c808672daa911be57eb4cee0660daf') in 0.017574 seconds
+  Import took 0.026937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/00WorldScene/01Castle_Hub(Matt)/NavMesh-Terrain.asset
+  artifactKey: Guid(11172c208d4aac54fb7c25d011606035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/00WorldScene/01Castle_Hub(Matt)/NavMesh-Terrain.asset using Guid(11172c208d4aac54fb7c25d011606035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07d37137af40d1f113ad3d810ef99633') in 0.010663 seconds
+  Import took 0.022666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/00WorldScene/01Castle_Hub(Matt)/NavMesh-Terrain 1.asset
+  artifactKey: Guid(60aca1db15e185b43a753bc98150a946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/00WorldScene/01Castle_Hub(Matt)/NavMesh-Terrain 1.asset using Guid(60aca1db15e185b43a753bc98150a946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3752881e41a934360dc222e74d815207') in 0.013730 seconds
+  Import took 0.021419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.797175 seconds.
+  path: Assets/00WorldScene/01Castle_Hub(Matt).unity
+  artifactKey: Guid(7210a8c0fbc7d3b4596163e4b6e35982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/00WorldScene/01Castle_Hub(Matt).unity using Guid(7210a8c0fbc7d3b4596163e4b6e35982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84564053f947ee4e970cad773f057707') in 0.006470 seconds
+  Import took 0.015559 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

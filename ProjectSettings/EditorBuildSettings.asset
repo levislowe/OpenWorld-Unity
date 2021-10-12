@@ -14,10 +14,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/00WorldScene/02Sno_Wld(Levi).unity
     guid: b2efb21559d1f3d4ca5c4a15dc1e0543
-  - enabled: 1
-    path: Assets/00WorldScene/Derek's World Items/NetworkingTest.unity
-    guid: eb313350572a5c54eb7f902d18089b24
-  - enabled: 1
-    path: Assets/00WorldScene/03Tunnel.unity
-    guid: cca3d0a3831c05f47897299ea6cb51e9
   m_configObjects: {}
